@@ -4,7 +4,7 @@ function typeWriter(elemento) {
     textoArray.forEach(function(letra, i) {
    setTimeout(function() {
     elemento.innerHTML += letra;
-   }, 70 * i)
+   }, 60 * i)
 
     });
   }
