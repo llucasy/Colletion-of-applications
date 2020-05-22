@@ -34,7 +34,7 @@ section {
     }
 }
 
-section p::after {
+.typeWriter::after {
     content: '|';
     margin-left: 5px;
     opacity: 1;

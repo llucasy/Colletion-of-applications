@@ -9,5 +9,5 @@ function typeWriter(elemento) {
     });
   }
   
-  const texto = document.querySelector('section p');
+  const texto = document.querySelector('.typeWriter');
   typeWriter(texto);
