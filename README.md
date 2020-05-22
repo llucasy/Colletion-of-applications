@@ -5,3 +5,4 @@ Below is the list of apps separated by categories:
 
 ## Beginners:
 
+1. [Bin2Dec](https://llucasy.github.io/Colletion-of-applications/Bin2Dec/ "Bin2Dec")
