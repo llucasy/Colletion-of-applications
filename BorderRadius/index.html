@@ -11,8 +11,33 @@
     <header>Border Radius Previewer</header>
     <main>
         <section>
-            <input type="range" id="" min="0" max="100" value="12">
-            <div class="borderRadius"></div> 
+            <div class='multi-range' data-lbound='10' data-ubound='50'>
+                <hr />
+                <input type='range' 
+                       min='0' max='100' step='5' value='12' 
+                       oninput='this.parentNode.dataset.lbound=this.value;'
+                />
+                <input type='range' 
+                       min='0' max='100' step='5' value='24' 
+                       oninput='this.parentNode.dataset.ubound=this.value;'
+                />
+            </div>
+            <div class="borderRadius"></div>
+            <div class='multi-range' data-lbound='10' data-ubound='50'>
+                <hr />
+                <input type='range' 
+                       min='0' max='100' step='5' value='12' 
+                       oninput='this.parentNode.dataset.lbound=this.value;'
+                />
+                <input type='range' 
+                       min='0' max='100' step='5' value='24' 
+                       oninput='this.parentNode.dataset.ubound=this.value;'
+                />
+            </div>
+        </section>
+        <section class="result">
+            <label for="result">border-radius:</label>
+            <input type="text" id="result">
         </section>
         <a href="../">🏠Home page</a>
     </main>
