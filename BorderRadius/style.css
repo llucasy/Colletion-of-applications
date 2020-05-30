@@ -1,5 +1,10 @@
 @import "../style.css";
 
+.form {
+    position: relative;
+    width: 300px;
+}
+
 .borderRadius {
     background-color: #1abc9c;
     border: 2px solid black;
@@ -13,10 +18,27 @@
 }
 
 .multi-range { 
-    position: relative; width: calc(100% - 95px); height: 28px;
+    position: relative; width: calc(100% - 20px); height: 28px;
     margin-left: 10px;
     border: 1px solid #ddd; font-family: monospace;
 }
+
+.multi-range.left {
+    position: absolute;
+    left: -80px;
+    bottom: 115px;
+    transform: rotate(-90deg);
+    width: 190px;
+}
+
+.multi-range.right {
+    position: absolute;
+    right: -70px;
+    bottom: 115px;
+    transform: rotate(90deg);
+    width: 190px;
+}
+
 .multi-range > hr { position: absolute; width: 100%; top: 50%; }
 .multi-range > input[type=range] {
     width: calc(100%); 
@@ -30,15 +52,8 @@
 .multi-range > input[type=range]::-ms-thumb { transform: translateY(-18px); }
 .multi-range > input[type=range]::-ms-track { -webkit-appearance: none; height: 0px; }
 
-.multi-range::after { 
-    content: attr(data-lbound) ' - ' attr(data-ubound); 
-    position: absolute; top: 0; left: 100%; white-space: nowrap;
-    display: block; padding: 0px 4px; margin: -1px 2px;
-    height: 26px; width: 65px; border: 1px solid #ddd; 
-    font-size: 13px; line-height: 26px;
-}
-
 .result {
+    
     margin-bottom: 15px;
     margin-top: 15px;
 }
