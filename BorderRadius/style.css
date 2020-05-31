@@ -6,7 +6,7 @@
 }
 
 .borderRadius {
-    background-color: #1abc9c;
+    background: url(https://picsum.photos/150);
     border: 2px solid black;
     border-radius: 12% 24% 36% 48% / 60% 72% 84% 96%;
     height: 150px;
