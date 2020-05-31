@@ -52,8 +52,13 @@
 .multi-range > input[type=range]::-ms-thumb { transform: translateY(-18px); }
 .multi-range > input[type=range]::-ms-track { -webkit-appearance: none; height: 0px; }
 
-.result {
-    
+.sectionResult {
     margin-bottom: 15px;
     margin-top: 15px;
+}
+
+.sectionResult button {
+    font-size: .7em;
+    width: 60%;
+    margin-top: 10px;
 }

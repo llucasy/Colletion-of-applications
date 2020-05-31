@@ -8,6 +8,6 @@ form.addEventListener('input', () => {
 
     document.querySelector('.borderRadius').style.borderRadius = strBorderRadius
 
-    document.querySelector('.result').innerHTML = `border-radius: ${strBorderRadius}`
+    document.querySelector('.result').innerHTML = `border-radius: ${strBorderRadius};`
 })
 

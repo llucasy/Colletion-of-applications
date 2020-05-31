@@ -14,22 +14,22 @@
             <div class='multi-range' data-lbound='12' data-ubound='24'>
                 <hr />
                 <input type='range' 
-                       min='0' max='100' step='5' value='12' 
+                       min='0' max='100' value='12' 
                        oninput='this.parentNode.dataset.lbound=this.value;'
                 />
                 <input type='range' 
-                       min='0' max='100' step='5' value='24' 
+                       min='0' max='100' value='24' 
                        oninput='this.parentNode.dataset.ubound=this.value;'
                 />
             </div>
             <div class='multi-range left' data-lbound='36' data-ubound='48'>
                 <hr />
                 <input type='range' 
-                       min='0' max='100' step='5' value='36' 
+                       min='0' max='100' value='36' 
                        oninput='this.parentNode.dataset.lbound=this.value;'
                 />
                 <input type='range' 
-                       min='0' max='100' step='5' value='48' 
+                       min='0' max='100' value='48' 
                        oninput='this.parentNode.dataset.ubound=this.value;'
                 />
             </div>
@@ -37,27 +37,31 @@
             <div class='multi-range right' data-lbound='60' data-ubound='72'>
                 <hr />
                 <input type='range' 
-                       min='0' max='100' step='5' value='60' 
+                       min='0' max='100' value='60' 
                        oninput='this.parentNode.dataset.lbound=this.value;'
                 />
                 <input type='range' 
-                       min='0' max='100' step='5' value='72' 
+                       min='0' max='100' value='72' 
                        oninput='this.parentNode.dataset.ubound=this.value;'
                 />
             </div>
             <div class='multi-range' data-lbound='84' data-ubound='96'>
                 <hr />
                 <input type='range' 
-                       min='0' max='100' step='5' value='84' 
+                       min='0' max='100' value='84' 
                        oninput='this.parentNode.dataset.lbound=this.value;'
                 />
                 <input type='range' 
-                       min='0' max='100' step='5' value='96' 
+                       min='0' max='100' value='96' 
                        oninput='this.parentNode.dataset.ubound=this.value;'
                 />
             </div>
         </section>
-        <section class="result">
+        <section class="sectionResult">
+            <div class="result">
+                border-radius: 12% 24% 36% 48% / 60% 72% 84% 96%;
+            </div>
+            <button type="button">Copy to Clipboard</button>
         </section>
         <a href="../">🏠Home page</a>
     </main>
