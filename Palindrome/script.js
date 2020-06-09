@@ -1,7 +1,8 @@
 const number = document.querySelector('#number')
 const button = document.querySelector('button')
+const form = document.querySelector('form')
 
-button.addEventListener('click', () => {
+const findPalindrome = () => {
 
     const qtNumber = number.value.length
 
@@ -26,5 +27,11 @@ button.addEventListener('click', () => {
 
         alert(palindrome(Number(number.value)))
     }
+}
 
+form.addEventListener('submit', (e) => {
+    e.preventDefault()
+    findPalindrome()
 })
+
+button.addEventListener('click', findPalindrome)
