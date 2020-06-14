@@ -1,0 +1,13 @@
+@import "../style.css";
+
+section {
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(4, auto);
+    width: 300px;
+}
+
+.viewer {
+    grid-column-start: 3;
+    grid-column-end: 5;
+}
