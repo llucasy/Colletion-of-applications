@@ -3,11 +3,14 @@
 section {
     border: 2px solid black;
     display: grid;
-    grid-template-columns: repeat(4, auto);
-    width: 300px;
+    grid-template-columns: repeat(4, 1fr);
+    margin-bottom: 30px;
+    width: 250px;
+    height: 300px;
 }
 
 .viewer {
+    align-self: center;
     grid-column-start: 3;
     grid-column-end: 5;
 }
