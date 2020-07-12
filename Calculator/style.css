@@ -3,10 +3,15 @@
 section {
     border: 2px solid black;
     display: grid;
+    font-size: larger;
     grid-template-columns: repeat(4, 1fr);
     margin-bottom: 30px;
     width: 250px;
     height: 300px;
+}
+
+section button {
+    font-size: larger;
 }
 
 .viewer {
