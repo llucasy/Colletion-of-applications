@@ -17,7 +17,7 @@ header {
 }
 
 @media (min-width: 700px) {
-    header{
+    header {
         font-size: 2em;
     }
 }
@@ -39,16 +39,17 @@ section {
     margin-left: 5px;
     opacity: 1;
     animation: pisca .7s infinite;
-  }
+}
 
-  @keyframes pisca {
-    0%, 100% {
-      opacity: 1;
+@keyframes pisca {
+    0%,
+    100% {
+        opacity: 1;
     }
     50% {
-      opacity: 0;
+        opacity: 0;
     }
-  }
+}
 
 ol {
     display: inline-block;
